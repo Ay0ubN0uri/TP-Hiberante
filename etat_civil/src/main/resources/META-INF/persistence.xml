@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence           http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+    <persistence-unit name="com.a00n_Tp3Ex4Hibernate_jar_1.0PU" transaction-type="RESOURCE_LOCAL">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>com.a00n.entitiesbk.Woman</class>
+        <class>com.a00n.entitiesbk.Person</class>
+        <class>com.a00n.entitiesbk.Man</class>
+        <class>com.a00n.entitiesbk.Marriage</class>
+        <class>com.a00n.entities.Personne</class>
+        <class>com.a00n.entities.Marriage</class>
+        <class>com.a00n.entities.Femme</class>
+        <class>com.a00n.entities.Homme</class>
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/tp3_ex1?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.password" value="ayoubkali"/>
+        </properties>
+    </persistence-unit>
+</persistence>
